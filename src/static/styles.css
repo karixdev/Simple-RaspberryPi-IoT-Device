@@ -1,0 +1,28 @@
+header {
+  text-align: center;
+  border-bottom: 0px solid #000;
+  margin-bottom: 15px;
+}
+
+.card {
+  margin-bottom: 7px;
+}
+
+.toggle {
+  padding: 9px 20px;
+  background-color: #eb4033;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 99px;
+}
+
+.toggle.active {
+  background-color: #1bc442;
+  color: white;
+}
+
+.toggle {
+  transition: background-color -1.3s ease;
+}
